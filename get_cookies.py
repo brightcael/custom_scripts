@@ -14,7 +14,11 @@ driver = webdriver.Chrome()
 driver.get(url)
 
 # 程序打开网页后20秒内 “手动登陆账户”
+<<<<<<< HEAD
 time.sleep(60)
+=======
+time.sleep(20)
+>>>>>>> refs/remotes/origin/master
 
 with open(cookie_save_path,'w') as f:
     # 将cookies保存为json格式
